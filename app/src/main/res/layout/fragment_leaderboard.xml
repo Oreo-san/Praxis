@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omuparkar.praxis.LeaderboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        card_view:cardBackgroundColor="?attr/colorBackgroundFloating"
+        card_view:cardCornerRadius="12dp"
+        card_view:cardElevation="5dp"
+        card_view:contentPadding="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+
+
+                android:layout_alignParentTop="true"
+
+                android:text="Hackathon"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/event_time"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_above="@+id/event_venue"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+                android:text="10 am"
+                android:textColor="@android:color/background_dark"
+                android:textSize="26sp"
+                />
+
+            <TextView
+                android:id="@+id/event_venue"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:text="505 ,506"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/holo_blue_bright"
+                android:textSize="26sp"
+                />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>

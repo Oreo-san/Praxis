@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omuparkar.praxis.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="16dp"
+                android:text="About US"
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:text="It is our immense pleasure to announce that Vivekanand Education Society's Institute of Technology is organising its annual technical festival entitled PRAXIS'17." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:text="VESIT was established in 1984, is one of Mumbai's premier engineering institutes, which has been imparting high quality education and has striven to raise the bar of excellence. With this mega-event, VESIT opens vistas of technical advancement for budding engineers by allowing them to participate in competitions which test their grit, knowledge and skill.
+                " />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
