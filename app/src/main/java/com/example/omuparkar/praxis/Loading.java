@@ -8,7 +8,7 @@ import android.view.Window;
 
 public class Loading extends AppCompatActivity {
 
-    private static int splash_timeout = 4000;
+    private static int splash_timeout = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class Loading extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent homeIntent = new Intent(Loading.this, MainActivity.class);
+                Intent homeIntent = new Intent(Loading.this, LoginActivity.class);
                 startActivity(homeIntent);
                 finish();
             }
